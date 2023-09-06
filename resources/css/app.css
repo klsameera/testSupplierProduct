@@ -1,0 +1,16 @@
+@import url('../src/css/argonpro.css');
+@import url('https://kit.fontawesome.com/42d5adcbca.js');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+@import url('../src/js/plugins/nucleo/css/nucleo.css');
+
+@tailwind base;
+@tailwind components;
+/* @tailwind utilities; */
+
+.font-sans {
+    font-family: Nunito, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.flex {
+    display: flex;
+}
